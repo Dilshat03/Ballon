@@ -1,0 +1,29 @@
+.ballons {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-row-gap: 40px;
+    grid-column-gap: 40px;
+}
+
+.ballon {
+    width: 100px;
+    text-align: center;
+}
+
+.x-ballons {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x-ballon {
+    width: 100px;
+    margin: 70px 60px 0 0;
+    border: 2px solid black;
+}
+
+.bx-refresh {
+    font-size: 50px;
+    display: none
+}
